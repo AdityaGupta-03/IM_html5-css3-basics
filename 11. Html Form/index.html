@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie-edge" />
+	<meta name="description" content="This is for giving description" />
+    <meta name="keywords" content="python ,HTML , javascript , css " />
+	<meta name="robots" content="INDEX , FOLLOW" />
+
+	<title>Html Student Form: Baisc Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<span>Tags used are:- </span>
+	<ul> 
+		<li>Form</li>
+		<li>Fieldset </li> 
+		<li>Legend</li>
+		<li> Input :- 
+			<ol type="i">
+				<li>Password</li>
+				<li>Checkbox</li>
+				<li>Radio</li>
+				<li>Textarea</li>
+				<li>Dropdown</li>
+			</ol>
+		</li>
+	</ul>
+	<hr>
+
+	<h1>Enter Your Details</h1>
+
+	<form action="/">
+	<fieldset>
+		<legend>Student details </legend>  <!-- legend used to write text under border -->
+		<div> <!-- typing text alphanumeric -->
+			<label>First Name :</label> 
+			<input type="text" name="First" placeholder="John">
+		</div>
+
+		<div>
+			<label>Last Name:</label> 
+			<input type="text" name="Last" placeholder="Doe"> 
+		</div>
+
+		<div> <!--radio buttons-->
+		<label>Age :</label> 
+			<input type="radio" name="Age" checked> Under 18
+			<input type="radio" name="Age"> Above 18  
+	
+		
+		</div>
+		
+
+		<div> <!-- select is for the dropdown section, multiple is for the multiple select-->
+			<label for="">Choose the Course :-</label>  
+			<select name="Qualification" multiple>  
+				<option value="mba">MBA</option>
+				<option value="bba">BBA</option>
+				<option value="bsc">B.Sc</option>
+				<option value="msc">M.Sc</option>
+				<option value="btech" selected>B.Tech</option>
+				<option value="mtech">M.Tech</option>
+			</select> 
+		</div>
+		
+
+		<div>
+			<label for=""> E-mail ID :- </label>
+			<input type="email" name="E-mail" placeholder="john@abc.com">
+			<br>
+		</div>
+		
+		<div>
+			<label for="">Password :- </label> 
+			<input type="Password" name="Password" placeholder="Type Password"> 
+			<br> <!-- type password is for the password content -->
+		</div>
+		
+
+		<div>  <!-- checkbox is for the mutiple ticks if required -->
+			<label for="">Your Hobbies :-</label> 
+			
+				<input type="checkbox" name="Hobbies" value="Cricket">&nbsp;Cricket  
+			
+				<input type="checkbox" name="Hobbies" value="Hockey">&nbsp;Hockey
+			
+				<input type="checkbox" name="Hobbies" value="Badminton">&nbsp;Badminton
+			
+				<input type="checkbox" name="Hobbies" value="Tennis">&nbsp;Tennis
+		
+				<input type="checkbox" name="Hobbies" value="Football">&nbsp;Football 
+		</div>
+    	
+		<div> <!-- type date will open the calender -->
+			<label for="">Enter your D.O.B :-</label>  
+			<input type="date" name="date"> 
+			
+		</div>
+
+		<div>
+			<label for="">Enter Telephone no. :- </label> 
+			<input type="tel" name="telephone" placeholder="9999999999"> 
+		</div>
+
+		<label for="">Enter your Comments :- </label> 
+		<textarea name="usermessage" rows="5" cols="50" placeholder="Type your Comment"></textarea> 
+		<br>
+
+		<div>
+			<label for="">Select Image File</label>
+			<input type="file" class="form-control w-50" accept="image/*"> 
+			<br>
+
+			<label for="">Select Pdf File</label>
+			<input type="file" class="form-control w-50" accept ="application/pdf">
+			<br>
+
+			<label for="">Select csv File</label>
+			<input type="file" class="form-control w-50" accept=".csv">
+			<br>
+
+			<label for="">Select excel file File</label>
+			<input type="file" class="form-control w-50" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"">
+		</div>   
+		<div class="btn">
+			<button type="submit" value="Click Here">Click Here</button>
+			<button type="reset">Reset</button>
+		</div>
+
+	</fieldset>
+</form>
+
+</body>
+</html>

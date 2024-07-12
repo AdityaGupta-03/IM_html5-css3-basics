@@ -1,0 +1,45 @@
+
+h1{
+    text-align: center;
+}
+hr{
+    margin: 20px 0;
+    border: 2px solid black;
+}
+
+legend{
+    font-size: larger;
+    font-weight: bold;
+    padding: 0 8px;
+}
+div{
+    margin: 10px;
+}
+label{
+    font-size: large;
+    margin: 0px 10px;
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+}
+input,textarea {
+    display: inline-block;
+    padding: 2px 4px;
+}
+button{
+    background:white;
+    border: 3px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 1px 25px;
+
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+.btn{
+    margin: 0px 25em;
+}
+
