@@ -23,14 +23,14 @@ Hypertext
 
 Element is defined by start tag, some content and end tag
 
-Element : ```<html>``` something ```</html>```
+Element : ```<html> something </html>```
 
-```<body>``` come contnent ```</body>```
+```<body> come contnent </body>```
 
 Some elements will have no end tags ( closing tags)
 
-```<title>``` Name ```</title>```
-```<br>``` name </br>``` - This is wrong as there will be no end tag
+```<title> Name </title>```
+```<br> name </br>``` - This is wrong as there will be no end tag
 
 ```<br>``` - Empty element
 
@@ -51,7 +51,7 @@ Tags - Surrounds the content and apply meaning to it. Written using < and > brac
 
 Attribute - Porvides extra information about the element
 
-<tag attribute-name="attribute-value"></tag>
+```<tag attribute-name="attribute-value"></tag> ```
 
 1. Heading Tags - ```</H1>, </h2>, <h3>, <h4>, <h5>, <h6> - <b></b> - <i></i> - <u></u>```
 
@@ -94,7 +94,7 @@ Attribute - Porvides extra information about the element
 
 20. p - paragraph
 
-21. space - to add space se &nbsp;
+21. space - to add space se ```&nbsp;```
 
 ## HTML CSS
 
@@ -104,8 +104,8 @@ elemepnt position, background, background images, background colors
 2. CSS - Can be added to HTML docuemnt in 3 ways
 
 - Inline - by using style attribute inside HTML Elelment
-- Internal - by using <style> element in <head> section
-- External - by using <link> element to link external CSS
+- Internal - by using ```<style>``` element in ```<head>``` section
+- External - by using ```<link>``` element to link external CSS
 
 ## CSS Colors, Fonts, sizes
 
@@ -144,7 +144,7 @@ Block level element occupies entire space of the parent
 Always starts in a new line
 
 ## Block-Level elements
-
+```
 1. H1-H6
 2. <table>
 3. <p>
@@ -155,7 +155,7 @@ Always starts in a new line
 8. <address>
 9. <header>
 10. <footer>
-
+```
 ## Inline elements
 
 1.  Doesn't start on a new line
