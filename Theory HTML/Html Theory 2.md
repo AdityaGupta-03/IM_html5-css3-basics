@@ -23,48 +23,45 @@ Some of the elements will have no content and no end tag
 
 Only content inside the body section will be displayed
 
-Features os HTML
-----------------
+## Features os HTML
+
 1. simple and easy to use
 2. Platform independent (Windows, Max, Linux)
 3. case insensitive language
 
 Note: Write all the tags in lower-case for consistency and for the better readability
 
-Building Blocks of HTML
------------------------
-Tags -  Surrounds the content and apply meaning to it, write using < and  > brackets
+## Building Blocks of HTML
+
+Tags - Surrounds the content and apply meaning to it, write using < and > brackets
 
 attribute - Provides extra information about the element
 
 <tag attribute-name="attribute-value">
 
-Tags in HTML
---------------
-1. Heading Tags - <h1>,<h2>,<h3>,<h4>,<h5>,<h6>
-                - <b></b> - bold
-                - <i></i> - italic
-                - <u></u> - underline
+## Tags in HTML
+
+1. Heading Tags - <h1>,<h2>,<h3>,<h4>,<h5>,<h6> - <b></b> - bold - <i></i> - italic - <u></u> - underline
 
 2. Meta Tags - Doctype, title, link, meta, style
 
-style -        <style>
-                    .website {
-                        color: teal;
-                    }
-                </style>
-link -         <link href="./styles.css" rel="stylesheet">
+style - <style>
+.website {
+color: teal;
+}
+</style>
+link - <link href="./styles.css" rel="stylesheet">
 
 3. Text Tags - <p>,<h1>..<h6>, <strong><em>
 4. Link tags - <a>
 5. Image and Area - <img><area>
 6. List Tags - <ul>,<ol>,<li>
 7. Table tags - table, tr, td . th, thead, tbody
-8. Form tags  - <form>, <input>, <textarea>, <select>
-9. Scrit tags -  Script and no-Script
+8. Form tags - <form>, <input>, <textarea>, <select>
+9. Scrit tags - Script and no-Script
 
-HTML Text Tags
-----------------
+## HTML Text Tags
+
 <b> - bold
 <i> - italic
 <u> - underline
@@ -74,41 +71,41 @@ HTML Text Tags
 code - Defines a fragment of computer code
 <small> - Defines smaller text e.g. copyright or other side-comments
 <sup> - Super Script
-<sub> - subscript 
+<sub> - subscript
 <del> - is used to identify text that has been deleted from a document
-        but retained to show the history of modification to the document
+but retained to show the history of modification to the document
 <ins> - is used when a text that has been inserted into a document
-<cite> - Defins title of some creative work 
+<cite> - Defins title of some creative work
 <q> - Quotation
 <abbr> - abbreviation
+
 <address> - To display Address
 &nbsp; - used to add space
 
-Link Tags
-----------
-<a> - achor tag , defines a hyperlink which is used to provide link from one page 
-      to other page
+## Link Tags
+
+<a> - achor tag , defines a hyperlink which is used to provide link from one page
+to other page
 
       href - Most import attribute of element
 
       target -  _blank - opens link in a new table_parent, _self, _top
 
-Image Tags
-----------
-<img> - Will help us to display images
-      src - which is source 
-      alt - Alternate text
+## Image Tags
 
-List Tags
----------
+<img> - Will help us to display images
+src - which is source
+alt - Alternate text
+
+## List Tags
+
 Ul - Unordered List -> No order is required
 Ol - Ordered List - Use it when you are lsiting steps which needs be in order
 
-HTML CSS
----------
-CSS - Cascading Stylesheet to format the layout of our webpage
-    - with CSS you can control the color, font, size of text, element position,
-      background images and background-color
+## HTML CSS
+
+CSS - Cascading Stylesheet to format the layout of our webpage - with CSS you can control the color, font, size of text, element position,
+background images and background-color
 
 CSS - can be added to HTML document in 3 ways
 
@@ -116,21 +113,19 @@ Inline - by using style attribute inside HTMl element
 Internal - by using <style> element in <head> section
 External - by using <link> element to link external CSS
 
-Javascript execution engines
-----------------------------
+## Javascript execution engines
+
 Chrome - v8
 IE - Chakra
 Firefox - SpiderMonkey
 
-HTML FORMS
-----------
-Required when you want to collect some data from the user. 
+## HTML FORMS
 
-<form> - used to create HTML form 
+Required when you want to collect some data from the user.
 
-1. Text Input controls - Single 
-                       - Password
-                       - Multiline
+<form> - used to create HTML form
+
+1. Text Input controls - Single - Password - Multiline
 2. Checkbox control
 3. Radio Box control
 4. Select Box control
@@ -139,48 +134,41 @@ Required when you want to collect some data from the user.
 7. clickable button
 8. Submit and Reset button
 
-Block-level elements & Inline elements
----------------------------------------
-Block level element occupies the entire space of the parent
+## Block-level elements & Inline elements
 
-Every element has default display value depending on what type it is 
+- Block level element occupies the entire space of the parent
+- Every element has default display value depending on what type it is
+- There are two display values : block and inline
+- Always starts on new line and takes up the full width available
+- occupies entire space of the parent
 
-There are two display values : block and inline
+## Inline elements
 
-Always starts on new line and takes up the full width available 
+- It doesn't start on a new line and only takes up as much width as neccessary
+- can not add block level elements to inline elements
+- Block Level Elements Inline Elements
 
-occupies entire space of the parent
+---
 
-Inline elements
-----------------
-It doesn't start on a new line and only takes up as much width as neccessary 
-
-can not add block level elements to inline elements
-
-Block Level Elements         Inline Elements
----------------------        ------------------
-H1-h6                          <span>
-table                          <a>
-p                              <button>
-div                            <sup>
-form                           <sub>
-video                          <textarea>
-hr                             <label>                                               
-address                        <b>
-Header                        <strong>
-footer                        <img>
+H1-h6 <span>
+table <a>
+p <button>
+div <sup>
+form <sub>
+video <textarea>
+hr <label>  
+address <b>
+Header <strong>
+footer <img>
 
 span - An inline element used to mark up a part of a text or part of a document
 
 Label - This is used when we have form or input elements
 
-div - is Always used as a container for other elements
-    - defines divison or section in HTMl document
-    - any sort of content can be put inside <div> tag
-    - this is know an DIVISON tag
+div - is Always used as a container for other elements - defines divison or section in HTMl document - any sort of content can be put inside <div> tag - this is know an DIVISON tag
 
-HTML DOM ( Document Object Model)
----------------------------------
+## HTML DOM ( Document Object Model)
+
 When a page is loaded broswer creates a document object model of the page
 
 Usage : with HTMl DOM javascript can access all the elements of an HTML document, it gets all the power it needs.
@@ -189,35 +177,33 @@ Usage : with HTMl DOM javascript can access all the elements of an HTML document
 
        Javascript can react to HTML events and can create new HTML events in the page
 
-Video and Audio Tags
------------------------
+## Video and Audio Tags
+
 <Video controls autoplay muted>
 <Audio controls autoplay muted>
 
-controls - The browser will ofer controls to allow the user to control 
-           audio playback, volume , pause/resume
+controls - The browser will ofer controls to allow the user to control
+audio playback, volume , pause/resume
 
-autoplay - This audio will automatically begin playback as soon as it can 
-           without waiting for the entire audio file to finish downloading
+autoplay - This audio will automatically begin playback as soon as it can
+without waiting for the entire audio file to finish downloading
 
 muted - will mute the audio
 
-HTML Class
-----------
+## HTML Class
+
 HTML class attribute is used ti specify a class for an element
 
 multiple HTML elements can share the same class
 
-
-Padding & margin
------------------
+## Padding & margin
 
 Padding - is the space between the text and border
 
 margin - is the space between the elements
 
-HTML Responsive Webdesign
----------------------------
+## HTML Responsive Webdesign
+
 Responsive webdesign is about creating webpages that look good in all devices
 
 Will automatically adjust for different screen sizes and viewports
@@ -226,22 +212,21 @@ to crete responsive website we need <meta> tag
 
 <meta name="viewport" content="width=device-with, Initial-scale=1.0">
 
-meta - This will set the viewport of our page which will give instructions to browser 
-       on how to control page's deminesion and scaling
+meta - This will set the viewport of our page which will give instructions to browser
+on how to control page's deminesion and scaling
 
 viewport - This is user's vivisible are of the webpage.
-           This varies with device.
-           This will be smaller on mobile phone and larger on computer screen 
+This varies with device.
+This will be smaller on mobile phone and larger on computer screen
 
 Initial-scale - Governs the zoom level when page is loaded for the first time.
 
+## Semantic Elements
 
-Semantic Elements
------------------
-Elements with meaning 
+Elements with meaning
 
-Semantic 
----------
+## Semantic
+
 <article> - specifies independent, self-contained content
 <aside> - defines some conteent aside from the content it is placed in
 <details> - specifies additional details that the user can 
