@@ -1,22 +1,23 @@
-1. colors in CSS
+1. Colors in CSS
 
 - color names
 - HTML5 colors
 - Hexadecimal codes
 - RGB - RED GREEN BLUE ( added togther is various ways)
+
 URL : https://en.wikipedia.org/wiki/Web_colors
     : https://htmlcolorcodes.com/color-picker/
 
-List of Selectors
+2. List of Selectors
 
-Simple Selector - Select elements based on name, id and class
-Combinator slector - Select elements based on relationship between them
-Pseudo-class selectors - selecctor which matches components based on the additional condition 
-CSS - color, import, background, font 
-Pseudo-Elemnts selectors
-Attribute Selectors
+Simple Selector - Select elements based on name, id and class <br>
+Combinator slector - Select elements based on relationship between them <br>
+Pseudo-class selectors - selecctor which matches components based on the additional condition  <br>
+CSS - color, import, background, font  <br>
+Pseudo-Elemnts selectors <br>
+Attribute Selectors <br>
 
-Combinator slector
+Combinator slector <br>
 
 Which explains the relationship between the selectors 
 
