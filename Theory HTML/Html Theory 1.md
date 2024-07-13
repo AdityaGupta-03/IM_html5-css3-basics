@@ -9,32 +9,32 @@ Hypertext
        - Link two or more webpages 
        - Click on link will take you to new page
 
-<!doctype html> - This tag specifies the language we write on the page , in our case it is HTML5
+``` <!doctype html>``` - This tag specifies the language we write on the page , in our case it is HTML5
 
 ``` <html> ``` - Starting point of our HTML code, it signals that from here we are going to write HTML code
 
-<head> - Here we write meta data for the pages, mostaly for search engines for SEO Purpose
+``` <head>```  - Here we write meta data for the pages, mostaly for search engines for SEO Purpose
 
-<body> - This is where content of the page goes for e. h headers, paragraphs, images, hyperlinks
+``` <body>```  - This is where content of the page goes for e. h headers, paragraphs, images, hyperlinks
 
-<title> - Title of HTML page
+``` <title>```  - Title of HTML page
 
 ## HTML Element
 
 Element is defined by start tag, some content and end tag
 
-Element : <html> something </html>
+Element : ```<html>``` something ```</html>```
 
-<body> come contnent </body>
+```<body>``` come contnent ```</body>```
 
 Some elements will have no end tags ( closing tags)
 
-<title> Name </title>
-<br> name </br> - This is wrong as there will be no end tag
+```<title>``` Name ```</title>```
+```<br>``` name </br>``` - This is wrong as there will be no end tag
 
-<br> - Empty element
+```<br>``` - Empty element
 
-<hr> - No content
+```<hr>``` - No content
 
 Only content inside the body will displayed in the webpages
 
@@ -53,23 +53,23 @@ Attribute - Porvides extra information about the element
 
 <tag attribute-name="attribute-value"></tag>
 
-1. Heading Tags - </H1>, </h2>, <h3>, <h4>, <h5>, <h6> - <b></b> - <i></i> - <u></u>
+1. Heading Tags - ```</H1>, </h2>, <h3>, <h4>, <h5>, <h6> - <b></b> - <i></i> - <u></u>```
 
-2. Meta Tags - DOCTYPE, <title> , link, meta, style
+2. Meta Tags - ```DOCTYPE, <title> , link, meta, style```
 
-3. Text Tags - <p>, <h1> to <h6>, strong>
+3. Text Tags - ```<p>, <h1> to <h6>, strong>```
 
-4. Link Tag - <a>
+4. Link Tag - ```<a>```
 
-5. Image Tag - <Image>
+5. Image Tag - ```<Image>```
 
-6. List Tags - <ul> <ol> <li>
+6. List Tags - ```<ul> <ol> <li>```
 
 7. Table Tags - table, tr, td, thead, tbody, th
 
 8. Form tags - Form, Input, textArea, select
 
-9. Script Tags - <Script> , <noscript>
+9. Script Tags - ```<Script> , <noscript>```
 
 10. Mark - Tag will Mark or Highlight a text that is of relevance
 
