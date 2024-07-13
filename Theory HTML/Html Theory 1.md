@@ -4,7 +4,9 @@ HTML - Hypertext Markup Language
      - Widely used in web technologies
      - Is a Markup Language not a programming language
 
-Hypertext - Text with in Text - Link two or more webpages - Click on link will take you to new page
+Hypertext     - Text with in Text 
+              - Link two or more webpages 
+              - Click on link will take you to new page
 
 <!doctype html> - This tag specifies the language we write on the page , in our case it is HTML5
 
