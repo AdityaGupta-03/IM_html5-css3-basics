@@ -119,7 +119,7 @@ elemepnt position, background, background images, background colors
 ## HTML Forms
 
 Required to collect some data from the user. for e.g Name, Email, Phone
-May be used for registartion where we collect infornation.
+May be used for registartion where we collect information.
 
 <form action="/user" method="get">
       form elements
@@ -156,8 +156,9 @@ Always starts in a new line
 9. <header>
 10. <footer>
 ```
-## Inline elements
 
+## Inline elements
+```
 1.  Doesn't start on a new line
 2.  Only takes up as much width as necessary
 3.  Can not contain block-level element
@@ -172,7 +173,7 @@ Always starts in a new line
 11. <b>
 12. <strong>
 13. <img>
-
+```
 span - container used to amrk up a part of text or part of document
 
 div - Known as DIVISON Tag
@@ -183,6 +184,7 @@ div - Known as DIVISON Tag
 
        any sort of content can be placed inside <div> tag
 
+```
 <div> 
       <p></p>
       <h1><h1>
@@ -190,6 +192,7 @@ div - Known as DIVISON Tag
       <span>
       .....
 </div>
+```
 
 ## label vs span
 
@@ -260,7 +263,7 @@ author of the document and viewport settings.
 ## Semantic elelments
 
 Elements with meaning and clearly tell us what the content is about
-
+```
 <article>
 <aside>
 <details>
@@ -274,18 +277,22 @@ Elements with meaning and clearly tell us what the content is about
 <section>
 <summary>
 <time>
-
+```
 ## Non Semantic Elements
 
+```
 <div>
 <span>  
 <p>
+```
 
 Tells nothing about the content
 
+```
 <div id="nav">
 <div class="header">
 <div class="footer">
+```
 
 ## CSS3
 
@@ -301,7 +308,7 @@ Selectors
 
 1. Combinator Selector
 
-    a. decendent selector (space)
-    b. child selector (>)
-    c. adjacent sibing selector (+)
-    d. general sibling selector (~)
+       a. decendent selector (space)
+       b. child selector (>)
+       c. adjacent sibing selector (+)
+       d. general sibling selector (~)
