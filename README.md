@@ -30,9 +30,9 @@ Table has 3 child:- thead, tbody, div. Inside thead and tbody there is 1 tablero
 
 ## git config for the first time
 
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
-git config --list - will give you configuration details
+git config --global user.name "John Doe" <br>
+git config --global user.email johndoe@example.com <br>
+git config --list => will give you configuration details <br>
 
 ---
 
