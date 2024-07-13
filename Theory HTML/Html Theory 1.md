@@ -4,37 +4,36 @@ HTML - Hypertext Markup Language
      - Widely used in web technologies
      - Is a Markup Language not a programming language
 
-Hypertext  
-       - Text with in Text 
-       - Link two or more webpages 
-       - Click on link will take you to new page
+Hypertext
 
-``` <!doctype html>``` - This tag specifies the language we write on the page , in our case it is HTML5
+-   Text with in Text - Link two or more webpages - Click on link will take you to new page
 
-``` <html> ``` - Starting point of our HTML code, it signals that from here we are going to write HTML code
+` <!doctype html>` - This tag specifies the language we write on the page , in our case it is HTML5
 
-``` <head>```  - Here we write meta data for the pages, mostaly for search engines for SEO Purpose
+`<html>` - Starting point of our HTML code, it signals that from here we are going to write HTML code
 
-``` <body>```  - This is where content of the page goes for e. h headers, paragraphs, images, hyperlinks
+` <head>` - Here we write meta data for the pages, mostaly for search engines for SEO Purpose
 
-``` <title>```  - Title of HTML page
+` <body>` - This is where content of the page goes for e. h headers, paragraphs, images, hyperlinks
+
+` <title>` - Title of HTML page
 
 ## HTML Element
 
 Element is defined by start tag, some content and end tag
 
-Element : ```<html> something </html>```
+Element : `<html> something </html>`
 
-```<body> come contnent </body>```
+`<body> come contnent </body>`
 
 Some elements will have no end tags ( closing tags)
 
-```<title> Name </title>```
-```<br> name </br>``` - This is wrong as there will be no end tag
+`<title> Name </title>`
+`<br> name </br>` - This is wrong as there will be no end tag
 
-```<br>``` - Empty element
+`<br>` - Empty element
 
-```<hr>``` - No content
+`<hr>` - No content
 
 Only content inside the body will displayed in the webpages
 
@@ -51,25 +50,44 @@ Tags - Surrounds the content and apply meaning to it. Written using < and > brac
 
 Attribute - Porvides extra information about the element
 
-```<tag attribute-name="attribute-value"></tag> ```
+`<tag attribute-name="attribute-value"></tag> `
 
-1. Heading Tags - ```</H1>, </h2>, <h3>, <h4>, <h5>, <h6> - <b></b> - <i></i> - <u></u>```
+1. Heading Tags -
 
-2. Meta Tags - ```DOCTYPE, <title> , link, meta, style```
+```
+       </h1>, </h2>, <h3>, <h4>, <h5>, <h6>
+       bold - <b></b>
+       Italics - <i></i>
+       Underline - <u></u>
+```
 
-3. Text Tags - ```<p>, <h1> to <h6>, strong>```
+2. Meta Tags -
 
-4. Link Tag - ```<a>```
+```
+Doctype, title, link, meta, style
 
-5. Image Tag - ```<Image>```
+style - <style>
+              .website {
+              color: teal;
+              }
+       </style>
 
-6. List Tags - ```<ul> <ol> <li>```
+link - <link href="./styles.css" rel="stylesheet">
+```
+
+3. Text Tags - `<p>, <h1> to <h6>, <strong>, <em>`
+
+4. Link Tag - `<a>`
+
+5. Image Tag - `<image>, <area>`
+
+6. List Tags - `<ul> <ol> <li>`
 
 7. Table Tags - table, tr, td, thead, tbody, th
 
 8. Form tags - Form, Input, textArea, select
 
-9. Script Tags - ```<Script> , <noscript>```
+9. Script Tags - `<Script> , <noscript>`
 
 10. Mark - Tag will Mark or Highlight a text that is of relevance
 
@@ -94,36 +112,84 @@ Attribute - Porvides extra information about the element
 
 20. p - paragraph
 
-21. space - to add space se ```&nbsp;```
+21. space - to add space se `&nbsp;`
+
+## HTML Text Tags
+
+```
+<b> - bold
+<i> - italic
+<u> - underline
+<strong>
+<em> - display content in italic
+<mark> - to highlight the text that is of relevance
+code - Defines a fragment of computer code
+<small> - Defines smaller text e.g. copyright or other side-comments
+<sup> - Super Script
+<sub> - subscript
+<del> - is used to identify text that has been deleted from a document
+but retained to show the history of modification to the document
+<ins> - is used when a text that has been inserted into a document
+<cite> - Defins title of some creative work
+<q> - Quotation
+<abbr> - abbreviation
+
+<address> - To display Address
+&nbsp; - used to add space
+```
+
+## Link Tags
+
+```
+<a> - achor tag , defines a hyperlink which is used to provide link from one page to other page.
+
+href - Most import attribute of element
+target -  _blank - opens link in a new table_parent, _self, _top
+```
+
+## Image Tags
+
+```
+<img> - Will help us to display images
+src - which is source
+alt - Alternate text
+```
+
+## List Tags
+
+-   Ul - Unordered List -> No order is required
+-   Ol - Ordered List - Use it when you are lsiting steps which needs be in order
 
 ## HTML CSS
 
 1. CSS - Cascading Stylesheet - To format the layout of my webpage - With CSS you can control the color, font, size of the text,
-elemepnt position, background, background images, background colors
+   elemepnt position, background, background images, background colors
 
 2. CSS - Can be added to HTML docuemnt in 3 ways
 
-- Inline - by using style attribute inside HTML Elelment
-- Internal - by using ```<style>``` element in ```<head>``` section
-- External - by using ```<link>``` element to link external CSS
+-   Inline - by using style attribute inside HTML Elelment
+-   Internal - by using `<style>` element in `<head>` section
+-   External - by using `<link>` element to link external CSS
 
 ## CSS Colors, Fonts, sizes
 
-- color - defines the text of your color
-- font-family - defines font to be used
-- font-size - defines size of the font
-- border - define border for all HTML elelments
-- padding - defines space between your text and the border
-- margin - defines the space between border
+-   color - defines the text of your color
+-   font-family - defines font to be used
+-   font-size - defines size of the font
+-   border - define border for all HTML elelments
+-   padding - defines space between your text and the border
+-   margin - defines the space between border
 
 ## HTML Forms
 
 Required to collect some data from the user. for e.g Name, Email, Phone
 May be used for registartion where we collect information.
 
+```
 <form action="/user" method="get">
       form elements
 </form>
+```
 
 HTTP Methods - GET, PUT, POST, DELETE ( CRUD Operations)
 
@@ -138,12 +204,22 @@ HTTP Methods - GET, PUT, POST, DELETE ( CRUD Operations)
 7. Clickable button
 8. Submt and reset Button
 
-## Block Level Element and Inline Element
+## Block-level elements & Inline elements
 
-Block level element occupies entire space of the parent
-Always starts in a new line
+-   Block level element occupies the entire space of the parent
+-   Every element has default display value depending on what type it is
+-   There are two display values : block and inline
+-   Always starts on new line and takes up the full width available
+-   occupies entire space of the parent
+
+## Inline elements
+
+1.  Doesn't start on a new line
+2.  Only takes up as much width as necessary
+3.  Can not contain block-level element
 
 ## Block-Level elements
+
 ```
 1. H1-H6
 2. <table>
@@ -158,22 +234,20 @@ Always starts in a new line
 ```
 
 ## Inline elements
-```
-1.  Doesn't start on a new line
-2.  Only takes up as much width as necessary
-3.  Can not contain block-level element
 
-4.  <span>
-5.  <a>
-6.  <button>
-7.  <sup>
-8.  <sub>
-9.  <textArea>
-10. <label>
-11. <b>
-12. <strong>
-13. <img>
 ```
+1.  <span>
+2.  <a>
+3.  <button>
+4.  <sup>
+5.  <sub>
+6.  <textArea>
+7. <label>
+8. <b>
+9. <strong>
+10. <img>
+```
+
 span - container used to amrk up a part of text or part of document
 
 div - Known as DIVISON Tag
@@ -185,7 +259,7 @@ div - Known as DIVISON Tag
        any sort of content can be placed inside <div> tag
 
 ```
-<div> 
+<div>
       <p></p>
       <h1><h1>
       <labe>
@@ -218,6 +292,8 @@ Usage: With HTML DOM Javascript can access all the elements of HTML Document
 
 ## Video
 
+`<Video controls autoplay muted>`
+
 Will help you display video in the page
 
 controls - The browsers will offer controls to allow the user
@@ -228,6 +304,8 @@ autoplay - The audio will automatically begin playback as soon as it can.
 muted - will mute the audio
 
 ## Audio
+
+`<Audio controls autoplay muted>`
 
 Will help you display audio in the page
 
@@ -244,25 +322,36 @@ This is an attribute which is used to specify a class for an HTML element
 
 Multiplw HTML elements can share same class
 
+## Padding & margin
+
+Padding - is the space between the text and border
+
+margin - is the space between the elements
+
 ## HTML Responsive
 
 Responsive web design is about creating webpages that look good on all devices.
+<br>
+This will automatically adjust for different screen sizes and viewports to create responsive website we need <meta> tag
 
-This will automatically adjust for different screen sizes and viewports
+`<meta name="viewport" content="width=device-width", intial scale 1.0">`
 
-To create responsive website we need <meta> tag
-
-<meta name="viewport" content="width=device-width", intial scale 1.0">
-
-This will set the viewport of your page whivh will give browser instructions on how
-to control page diemsnsions and scaling.
-
+This will set the viewport of your page whivh will give browser instructions on how to control page diemsnsions and scaling.
+<br>
 meta - Elelment Speicfy the charcter set, page description, keywords,
-author of the document and viewport settings.
+author of the document and viewport settings. This will set the viewport of our page which will give instructions to browser
+on how to control page's deminesion and scaling
+
+viewport - This is user's visible are of the webpage.
+This varies with device.
+This will be smaller on mobile phone and larger on computer screen
+<br>
+Initial-scale - Governs the zoom level when page is loaded for the first time.
 
 ## Semantic elelments
 
 Elements with meaning and clearly tell us what the content is about
+
 ```
 <article>
 <aside>
@@ -278,11 +367,12 @@ Elements with meaning and clearly tell us what the content is about
 <summary>
 <time>
 ```
+
 ## Non Semantic Elements
 
 ```
 <div>
-<span>  
+<span>
 <p>
 ```
 
@@ -308,7 +398,7 @@ Selectors
 
 1. Combinator Selector
 
-       a. decendent selector (space)
-       b. child selector (>)
-       c. adjacent sibing selector (+)
-       d. general sibling selector (~)
+    a. decendent selector (space)
+    b. child selector (>)
+    c. adjacent sibing selector (+)
+    d. general sibling selector (~)
